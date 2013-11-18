@@ -1,0 +1,18 @@
+//
+//  main.m
+//  HelloSprite
+//
+//  Created by International on 11/18/13.
+//  Copyright (c) 2013 Playtypus. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "PYAppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PYAppDelegate class]));
+    }
+}
