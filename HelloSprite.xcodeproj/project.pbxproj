@@ -24,6 +24,7 @@
 		39371F34183A831D000B7E30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39371F0F183A831C000B7E30 /* UIKit.framework */; };
 		39371F3C183A831D000B7E30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39371F3A183A831D000B7E30 /* InfoPlist.strings */; };
 		39371F3E183A831D000B7E30 /* HelloSpriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39371F3D183A831D000B7E30 /* HelloSpriteTests.m */; };
+		39371F4A183B61EC000B7E30 /* SoccerField.gif in Resources */ = {isa = PBXBuildFile; fileRef = 39371F49183B61EC000B7E30 /* SoccerField.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		39371F39183A831D000B7E30 /* HelloSpriteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSpriteTests-Info.plist"; sourceTree = "<group>"; };
 		39371F3B183A831D000B7E30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39371F3D183A831D000B7E30 /* HelloSpriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSpriteTests.m; sourceTree = "<group>"; };
+		39371F49183B61EC000B7E30 /* SoccerField.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SoccerField.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +130,6 @@
 				39371F23183A831C000B7E30 /* PYViewController.m */,
 				39371F25183A831C000B7E30 /* PYMyScene.h */,
 				39371F26183A831C000B7E30 /* PYMyScene.m */,
-				39371F28183A831C000B7E30 /* Spaceship.png */,
 				39371F2A183A831C000B7E30 /* Images.xcassets */,
 				39371F14183A831C000B7E30 /* Supporting Files */,
 			);
@@ -138,6 +139,8 @@
 		39371F14183A831C000B7E30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39371F28183A831C000B7E30 /* Spaceship.png */,
+				39371F49183B61EC000B7E30 /* SoccerField.gif */,
 				39371F15183A831C000B7E30 /* HelloSprite-Info.plist */,
 				39371F16183A831C000B7E30 /* InfoPlist.strings */,
 				39371F19183A831C000B7E30 /* main.m */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39371F4A183B61EC000B7E30 /* SoccerField.gif in Resources */,
 				39371F18183A831C000B7E30 /* InfoPlist.strings in Resources */,
 				39371F2B183A831C000B7E30 /* Images.xcassets in Resources */,
 				39371F29183A831C000B7E30 /* Spaceship.png in Resources */,

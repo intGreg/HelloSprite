@@ -5,7 +5,14 @@
 
 #import "PYMyScene.h"
 
+@interface PYMyScene()
+@property(nonatomic) SKSpriteNode *sprite;
+
+@end
+
 @implementation PYMyScene
+
+@synthesize sprite = _sprite;
 
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
@@ -32,17 +39,12 @@
     /* Called when a touch begins */
     
     for (UITouch *touch in touches) {
+        // Location of the touch
         CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
+    
+        // Create action to move to touch location
+        SKAction *action = [SKAction moveTo:location duration:1];
+        [self.sprite runAction:[SKAction repeatActionForever:action]];
     }
 }
 
