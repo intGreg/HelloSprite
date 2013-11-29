@@ -2,9 +2,6 @@
 //  PYMyScene.m
 //  HelloSprite
 //
-//  Created by International on 11/18/13.
-//  Copyright (c) 2013 Playtypus. All rights reserved.
-//
 
 #import "PYMyScene.h"
 
